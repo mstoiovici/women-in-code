@@ -1,0 +1,150 @@
+body {
+  font-family: Georgia, sans-serif;
+  color: #111111;
+  font-size: 16px;
+}
+
+#wrapper {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 60px;
+  color: red;
+  text-align: center;
+}
+
+@media screen and (min-width:800px){
+nav {
+  background-color: #ccc;
+  font-size: 30px;
+  text-align: center;
+}
+
+ul.index li {
+  display: inline;
+  margin-right: 25px;
+  border: 1px solid #999;
+}
+}
+h2 {
+  text-align: center;
+  font-size: 80%;
+}
+
+@media screen and (min-width:600px) {
+  .ada {
+    width: 31.3%;
+    border: 1px solid black;
+    /*border-radius: 15px 80px;
+  background-color: #FFEBCD;*/
+    float: left;
+    margin: 1%;
+  }
+
+  .grace {
+    width: 31.3%;
+    border: 1px solid black;
+    /*background-color: #6495ED;
+  border-radius: 15px 80px;*/
+    float: left;
+    margin: 1%;
+  }
+
+  .katherine {
+    width: 31.3%;
+    border: 1px solid black;
+    /*background-color: orange;
+  border-radius: 15px 80px;*/
+    float: left;
+    margin: 1%;
+    margin-right: 0%;
+  }
+}
+
+a:hover {
+  color: teal;
+}
+
+.figure {
+  width: 80%;
+  height: 80%;
+  text-align: center;
+}
+
+/*body{
+  font-family:Georgia, sans-serif;
+  color:#111111;
+  font-size:16px;
+}
+
+h1{
+  font-size:60px;
+  color:red;
+text-align:center;
+
+}
+nav{
+
+  background-color: #ccc;
+ font-size:30px;
+  text-align: center;
+
+}
+h2{
+  text-align:center;
+  font-size:50px;
+}
+
+ul.index li{
+  display:inline;
+  margin-right:25px;
+
+  border:1px solid #777;
+}
+.name{
+  font-size:18px;
+  font-weight:bold;
+}
+.ada{
+  width:33%;
+  border: 1px solid black;
+  border-radius: 15px 40px;
+  background-color: #FFEBCD;
+
+
+}
+.grace{
+  width:33%;
+  border: 1px solid black;
+  background-color: #6495ED;
+margin:10px;
+}
+.katherine{
+  width:40%;
+  border: 1px solid black;
+  background-color: orange;
+  margin:10px;
+}
+
+.em{
+  font-style: italic;
+}
+
+
+a:link{
+  color:deeppink;
+  text-decoration:none;
+}
+
+
+a:hover{
+  color:teal;
+}
+img.portrait{
+  display:block;
+  margin:0px auto;
+}
+/*
